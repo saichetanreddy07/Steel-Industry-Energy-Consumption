@@ -1,0 +1,8 @@
+Model,Train MAE,Test MAE,Train RMSE,Test RMSE,Train R²,Test R²,Difference,Test MAE Rank,Test RMSE Rank,Test R² Rank,Generalization Rank,Average Rank
+Random Forest,0.1288,0.3534,0.3999,1.0493,0.9999,0.999,-0.0046,1.0,1.0,1.0,5.0,2.0
+Decision Tree,0.0,0.5489,0.0,1.4488,1.0,0.9982,0.0018,2.0,2.0,2.0,4.0,2.5
+Gradient Boosting,1.6947,1.7298,2.8531,2.8932,0.9927,0.9926,0.0009,4.0,3.0,3.0,2.0,3.0
+Support Vector Regression,1.4356,1.4298,3.2405,2.9791,0.9906,0.9922,0.0001,3.0,4.0,4.0,1.0,3.0
+Linear Regression,2.6546,2.6018,4.7481,4.2087,0.9798,0.9844,-0.0046,5.0,5.0,5.0,5.0,5.0
+Ridge Regression,2.655,2.6022,4.7481,4.2089,0.9798,0.9844,-0.0061,6.0,6.0,5.0,7.0,6.0
+Lasso Regression,2.9264,2.8423,5.0887,4.406,0.9768,0.9829,-0.0016,7.0,7.0,7.0,3.0,6.0
